@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gcc VSS.c -l sqlite3 -o VSS
+gcc VSC.c -o VSC

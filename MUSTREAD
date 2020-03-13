@@ -1,0 +1,9 @@
+To run the project VirtialSoc you must:
+1. run the command ./CS which will compile files
+2. run command ./Database which will create the database
+3. run the command ./VSS which will open the server
+4. run the command ./VSC followed by the servers ip in order to start the client and connect to the server
+
+
+
+The .c files are the sources needed to be compiled(specified above) in order to obtain the specified results. 

@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ ! -d Databases ]; then
+  mkdir -p Databases;
+fi
+gcc MakeData.c -l sqlite3 -o MakeData
+./MakeData
+rm MakeData
